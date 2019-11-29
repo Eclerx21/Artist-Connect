@@ -67,6 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\456.jpg" />
+    <Content Include="App_Data\art10.jpeg" />
+    <Content Include="App_Data\artist logo.jpg" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
     <Content Include="WebForm2.aspx" />
