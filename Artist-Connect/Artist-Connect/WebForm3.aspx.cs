@@ -11,7 +11,18 @@ namespace Artist_Connect
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            Label3.Text = "Welcome, " + Request.QueryString["name"];
 
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("WebForm3.aspx");
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("WebForm1.aspx");
         }
     }
 }
